@@ -1,1 +1,1 @@
-../variables.tf
+../provider.tf
