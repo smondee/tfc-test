@@ -2,6 +2,7 @@ variable "project_name" {
   type    = string
   default = "edion"
 }
+
 variable "service_name" {
   type    = string
   default = "initsample"
