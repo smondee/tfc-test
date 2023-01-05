@@ -2,8 +2,8 @@
 #variable "aws_secretkey" {}
 
 provider "aws" {
-#  access_key = var.aws_accesskey
-#  secret_key = var.aws_secretkey
+  access_key = var.aws_accesskey
+  secret_key = var.aws_secretkey
   region = "ap-northeast-1"
 
   default_tags {
