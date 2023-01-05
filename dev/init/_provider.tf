@@ -1,13 +1,13 @@
 #variable "aws_accesskey" {}
 #variable "aws_secretkey" {}
-variable "AWS_ACCESS_KEY_ID" {}
+#variable "AWS_ACCESS_KEY_ID" {}
 variable "AWS_SECRET_ACCESS_KEY" {}
 
 provider "aws" {
 # access_key = var.aws_accesskey
 # secret_key = var.aws_secretkey
 
-  access_key = var.AWS_ACCESS_KEY_ID
+# access_key = var.AWS_ACCESS_KEY_ID
   secret_key = var.AWS_SECRET_ACCESS_KEY
 
 
