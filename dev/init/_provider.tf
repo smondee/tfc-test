@@ -4,6 +4,10 @@
 provider "aws" {
 # access_key = var.aws_accesskey
 # secret_key = var.aws_secretkey
+
+  TF_VAR_AWS_ACCESS_KEY_ID
+  TF_VAR_AWS_SECRET_ACCESS_KEY
+
   region = "ap-northeast-1"
 
   default_tags {
