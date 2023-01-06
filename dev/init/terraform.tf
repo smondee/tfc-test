@@ -1,6 +1,6 @@
 #AWS account alias
 resource "aws_iam_account_alias" "alias" {
-  account_alias = "${local.resource_prefix}-alias"
+  account_alias = "${local.resource_prefix}-ali"
 }
 
 #AWS IAM GROUP
