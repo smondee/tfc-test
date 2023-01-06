@@ -11,7 +11,7 @@ resource "aws_iam_group" "dev" {
 
 #AWS IAM パスワードポリシー
 resource "aws_iam_account_password_policy" "strict" {
-  minimum_password_length        = 6
+  minimum_password_length        = 100
   require_lowercase_characters   = true
   require_numbers                = true
   require_uppercase_characters   = true
